@@ -1,0 +1,7 @@
+---
+# tasks file for apache
+- import_tasks: sonar.yml
+#- import_tasks: nexus.yml
+#- import_tasks: tomcat.yml
+- import_tasks: httpd.yml
+
